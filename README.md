@@ -14,9 +14,9 @@ Estandares de codificación para el lenguaje javascript
     - [Llaves y espaciado de funciones](#llaves-y-espaciado-de-funciones)
     - [Tipos de funciones](#tipos-de-funciones)
     - [Argumentos de una función](#argumentos-de-una-función)
-    - [Construcción de cadenas](#construcción-de-cadenas)
-    - [Operaciones](#operaciones)
-        - [Operacione lógicas de igualdad y desigualdad](#operacione-lógicas-de-igualdad-y-desigualdad)
+- [Construcción de cadenas](#construcción-de-cadenas)
+- [Operaciones](#operaciones)
+    - [Operacione lógicas de igualdad y desigualdad](#operacione-lógicas-de-igualdad-y-desigualdad)
 - [Por considerar](#por-considerar)
 - [Referencias](#referencias)
 
@@ -170,7 +170,7 @@ function testFunction(arg1){
 ```
 
 <a name="construcción-de-cadenas"></a>
-### Construcción de cadenas
+## Construcción de cadenas
 Deben ser usadas comilas simples ( ' ) puesto de ésta manera se reducen los problemas a la hora de escapar las comillas dobles ( " ) usadas cuando se genera HTML y mejora la legibilidad.
 ```javascript
 // Incorrecto
@@ -183,7 +183,7 @@ var containerString = '<div class="container" data-type="html"></div>';
 **Nota**: Para los casos en que no se estan construyendo elementos del DOM también deben ser usadas las comillas simples por uniformidad en el código.
 
 <a name="operaciones"></a>
-### Operaciones
+## Operaciones
 Todas las operaciones deben tener espacios entre los operadores y los operandos para mejorar la legibilidad del código. Si se están usando parentesis no es necesario usar espacio entre los parentesis y los operandos.
 ```javascript
 

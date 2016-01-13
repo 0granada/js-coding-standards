@@ -16,7 +16,7 @@ Estandares de codificación para el lenguaje javascript
     - [Argumentos de una función](#argumentos-de-una-función)
 - [Construcción de cadenas](#construcción-de-cadenas)
 - [Operaciones](#operaciones)
-    - [Operacione lógicas de igualdad y desigualdad](#operacione-lógicas-de-igualdad-y-desigualdad)
+    - [Operaciones lógicas de igualdad y desigualdad](#operaciones-lógicas-de-igualdad-y-desigualdad)
 - [Por considerar](#por-considerar)
 - [Referencias](#referencias)
 
@@ -192,8 +192,8 @@ var v1 = b * h / 2,
 
 ```
 
-<a name="operacione-lógicas-de-igualdad-y-desigualdad"></a>
-#### Operacione lógicas de igualdad y desigualdad
+<a name="operaciones-lógicas-de-igualdad-y-desigualdad"></a>
+#### Operaciones lógicas de igualdad y desigualdad
 Deben usarse los comparadores estrictos (aquellos que comparan valor y tipo '===', '!==') para todas las operaciones lógicas de comparación.
 ```javascript
 

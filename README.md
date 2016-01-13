@@ -115,7 +115,7 @@ Los nombres de funciones deben ser escritos con notación camelCase.
 
 ```javascript
 function testFunction() {
-    console.log('Hello Test...');
+    // code here
 }
 ```
 
@@ -215,6 +215,7 @@ factorial(10);
 * Constructores VS. Prototipos en modulos de Angular.js. [enlace](http://thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/).
 * Nombramiento de variables (getters, setters, is, etc).
 * Paquetes, namespaces y gerarquía de modulos
+* Estandares de documentación de funciones y módulos
 * Ecmascript 6 [enlace 1](https://github.com/lukehoban/es6features/blob/master/README.md), [enlace 2](https://carlosazaustre.es/blog/ecmascript-6-el-nuevo-estandar-de-javascript/)
 
 <a name="referencias"></a>

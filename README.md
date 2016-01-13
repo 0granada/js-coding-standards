@@ -48,7 +48,7 @@ var iAmFine = true; //  Nombre de variable correcto
 
 <a name="declaración-de-multiples-variables"></a>
 #### Declaración de multiples variables
-Cuando se declaran multiples variables deben declararse todas con la misma sentencia `var`, una variable por linea y con coma ( , ) al final a menos que sea la ultima variable, en cuyo caso se usará punto y coma ( ; ) al final de la linea.
+Cuando se declaran multiples variables deben declararse todas con la misma sentencia `var`, una variable por linea y con coma (`,`) al final a menos que sea la ultima variable, en cuyo caso se usará punto y coma (`;`) al final de la linea.
 A partir de la segunda linea debe usarse 4 espacios antes del nombre de variable para mejorar la legibilidad del código fuente.
 El orden de las variables debe ser alfabetico de ser posible.
 
@@ -137,7 +137,7 @@ function testFunction(username) {
 
 <a name="tipos-de-funciones"></a>
 #### Tipos de funciones
-En javascript las funciones pueden ser funciones como tal o funciones como variables. En caso de que sean funciones como variables es necesario usar punto y coma ( ; ) despues del cuerpo de la función para finalizar la sentencia.
+En javascript las funciones pueden ser funciones como tal o funciones como variables. En caso de que sean funciones como variables es necesario usar punto y coma (`;`) despues del cuerpo de la función para finalizar la sentencia.
 
 ```javascript
 function testFunction() {
@@ -151,7 +151,7 @@ var anotherTestFunction = function() {
 
 <a name="argumentos-de-una-función"></a>
 #### Argumentos de una función
-Para mejorar la legibilidad del código javascript los argumentos de funciones deben ser nombres con notación camelCase. Si son varios argumentos deben estar separados por coma ( , ) y un espacio, así:
+Para mejorar la legibilidad del código javascript los argumentos de funciones deben ser nombres con notación camelCase. Si son varios argumentos deben estar separados por coma (`,`) y un espacio, así:
 
 ```javascript
 function testFunction(arg1, arg2, arg3) {
@@ -188,13 +188,13 @@ Todas las operaciones deben tener espacios entre los operadores y los operandos 
 ```javascript
 
 var v1 = b * h / 2,
-    v2 = (location.toLowerCase() === "medellin") ? "frijoles" : "lentejas";
+    v2 = (location.toLowerCase() === 'medellin') ? 'frijoles' : 'lentejas';
 
 ```
 
 <a name="operaciones-lógicas-de-igualdad-y-desigualdad"></a>
 #### Operaciones lógicas de igualdad y desigualdad
-Deben usarse los comparadores estrictos (aquellos que comparan valor y tipo '===', '!==') para todas las operaciones lógicas de comparación.
+Deben usarse los comparadores estrictos (aquellos que comparan valor y tipo `===`, `!==`) para todas las operaciones lógicas de comparación.
 ```javascript
 
 function factorial(x) {
@@ -212,11 +212,15 @@ factorial(10);
 
 <a name="por-considerar"></a>
 ## Por considerar
-* Constructores VS. Prototipos en modulos de Angular.js. [enlace](http://thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/).
+* Constructores VS. Prototipos en modulos de Angular.js. 
+<a target="_blank" href="http://thecodeship.com/web-development/methods-within-constructor-vs-prototype-in-javascript/">enlace</a>.
 * Nombramiento de variables (getters, setters, is, etc).
 * Paquetes, namespaces y gerarquía de modulos
 * Estandares de documentación de funciones y módulos
-* Ecmascript 6 [enlace 1](https://github.com/lukehoban/es6features/blob/master/README.md), [enlace 2](https://carlosazaustre.es/blog/ecmascript-6-el-nuevo-estandar-de-javascript/)
+* Ecmascript 6 
+<a target="_blank" href="http://qnimate.com/post-series/ecmascript-6-complete-tutorial">enlace 1</a>,
+<a target="_blank" href="https://github.com/lukehoban/es6features/blob/master/README.md">enlace 2</a>,
+<a target="_blank" href="https://carlosazaustre.es/blog/ecmascript-6-el-nuevo-estandar-de-javascript/">enlace 3</a>
 
 <a name="referencias"></a>
 ## Referencias
